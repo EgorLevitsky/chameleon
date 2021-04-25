@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/mini-logo.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Студия Хамелеон Тату</title>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#about">О нас</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#services">Услуги</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="logo" href="index.html"><img src="img/logo.svg" alt="Логотип"></a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#works">Работы</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#contacts">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="burger" data-modal="#modal_menu"><span></span></button>
+        </div>
+      </div>
+    </header>
+    <main class="main-content">
+      <section class="main-screen">
+        <div class="main-screen__info">
+          <div class="main-screen__content">
+            <div class="main-screen__suptitle">Превращаем ваше тело в</div>
+            <h1 class="main-screen__title">ЖИВОЕ ПРОИЗВЕДЕНИЕ ИСКУССТВА</h1>
+            <div class="main-screen__buttons">
+              <a class="btn" href="tel:79245556677">ПОЗВОНИТЬ НАМ</a>
+              <button class="btn btn--white" data-modal="#modal_call">ОСТАВИТЬ ЗАЯВКУ</button>
+            </div>
+          </div>
+        </div>
+        <div class="main-screen__video">
+          <!-- <img src="img/main-screen.jpg" alt=""> -->
+          <video src="img/main-screen-bg.mp4" autoplay muted loop></video>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about__images">
+            <div class="about__image-left">
+              <img src="img/about-1.jpg" alt="Девушка с тату">
+            </div>
+            <div class="about__image-right">
+              <img src="img/about-2.jpg" alt="Девушка с тату">
+            </div>
+
+          </div>
+          <div class="about__content">
+            <div class="about__info">
+              <h2 class="about__title title title--pink">Студия Хамелеон Тату</h2>
+              <div class="about__text">
+                <p>Татуировка – древнее искусство, которое помогает современным людям проявлять свою индивидуальность.
+                  Студия художественной татуировки Хамелеон Тату – актуальное место, если вам близок именно такой способ
+                  украшения своего тела.
+                </p>
+                <p>Наши профессиональные мастера в уютном и современном тату салоне обладают всеми необходимыми знаниями
+                  и навыками, чтобы вы смогли получить именно такой результат, который ожидаете. Качественную, красивую
+                  татуировку.</p>
+              </div>
+            </div>
+            <div class="about__img">
+              <img src="img/about-3.jpg" alt="Парень и девушка с тату">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="container">
+          <h2 class="services__title title">Наши услуги</h2>
+          <ul class="services__items">
+            <li class="services__item">
+              <div class="services__item-num">01.</div>
+              <h3 class="services__item-name item-name">Художественная татуировка</h3>
+              <div class="services__item-desc">Предлагаем уникальные татуировки всех стилей и видов, мастер подберет
+                индивидуальный эскиз именно для Вас: исправление старых татуировок, маскировка шрамов, рубцов, ожогов.
+                Коррекция и восстановление цвета татуировки.</div>
+              <div class="services__item-img">
+                <img src="img/services-1.jpg" alt="Девушка с тату">
+              </div>
+            </li>
+            <li class="services__item">
+              <div class="services__item-num">02.</div>
+              <h3 class="services__item-name item-name">Перекрытие</h3>
+              <div class="services__item-desc">Наши тату мастера – художники, профессионально перекрывают старые тату.
+                Для нас нет никаких проблем в том, чтобы обновить ваше тату, переделать его, исправить или достроить.
+                Все зависит от сюжета тату и ваших пожеланий.</div>
+              <div class="services__item-img">
+                <img src="img/services-2.jpg" alt="Девушка с тату">
+              </div>
+            </li>
+            <li class="services__item">
+              <div class="services__item-num">03.</div>
+              <h3 class="services__item-name item-name">Удаление лазером</h3>
+              <div class="services__item-desc">Наши мастера по удалению тату имеют медицинское образование и
+                профессиональную тату квалификацию, что позволяет им быть максимально компетентными в работе с удалением
+                профессиональных пигментов и сроками выведения тату. Лазер воздействует только на пигмент, не повреждая
+                поверхность кожи.</div>
+              <div class="services__item-img">
+                <img src="img/services-3.jpg" alt="Удаление тату">
+              </div>
+            </li>
+            <li class="services__item">
+              <div class="services__item-num">04.</div>
+              <h3 class="services__item-name item-name">Пирсинг</h3>
+              <div class="services__item-desc">Наш салон работает более 10 лет на рынке тату и пирсинг индустрии,
+                выполняя проколы любой сложности. Клиентам предлагается удобная зона ресепшн для комфортного ожидания, и
+                индивидуальное помещение для проведения процедуры пирсинга.</div>
+              <div class="services__item-img">
+                <img src="img/services-4.jpg" alt="Девушка с пирсингом">
+              </div>
+            </li>
+            </il>
+          </ul>
+        </div>
+      </section>
+      <section class="works" id="works">
+        <div class="container works__wrapper">
+          <h2 class="works__title title">Работы наших мастеров</h2>
+          <div class="works__inner">
+            <div class="works__img">
+              <div class="works__img-photo">
+                <img src="img/works-1.jpg" alt="">
+              </div>
+            </div>
+            <div class="works__slider">
+              <div class="works__slider-item">
+                <a href="" class="works__slider-link">
+                  <img src="img/works-1.jpg" alt="Татуировка льва">
+                </a>
+                <a href="" class="works__slider-link">
+                  <img src="img/works-2.jpg" alt="Парень в татуировках">
+                </a>
+              </div>
+              <div class="works__slider-item">
+                <a href="" class="works__slider-link">
+                  <img src="img/works-3.jpg" alt="Татуировка война">
+                </a>
+                <a href="" class="works__slider-link">
+                  <img src="img/works-4.jpg" alt="Татуировка амазонки">
+                </a>
+              </div>
+              <div class="works__slider-item">
+                <a href="" class="works__slider-link">
+                  <img src="img/works-5.jpg" alt="Парень в татуировках">
+                </a>
+                <a href="" class="works__slider-link">
+                  <img src="img/works-6.jpg" alt="Женская тату">
+                </a>
+              </div>
+              <div class="works__slider-item">
+                <a href="" class="works__slider-link">
+                  <img src="img/works-7.jpg" alt="Татуировка война">
+                </a>
+                <a href="" class="works__slider-link">
+                  <img src="img/works-8.jpg" alt="Татуировка тигра">
+                </a>
+              </div>
+              <div class="works__slider-item">
+                <a href="" class="works__slider-link">
+                  <img src="img/works-9.jpg" alt="Татуировка джокера">
+                </a>
+                <a href="" class="works__slider-link">
+                  <img src="img/works-10.jpg" alt="Татуировка леопарда">
+                </a>
+              </div>
+              <div class="works__slider-item">
+                <a href="" class="works__slider-link">
+                  <img src="img/works-11.jpg" alt="Татуировка орла">
+                </a>
+                <a href="" class="works__slider-link">
+                  <img src="img/works-12.jpg" alt="Татуировка молот">
+                </a>
+              </div>
+              <div class="works__slider-item">
+                <a href="" class="works__slider-link">
+                  <img src="img/works-13.jpg" alt="Мужская татуировка">
+                </a>
+                <a href="" class="works__slider-link">
+                  <img src="img/works-14.jpg" alt="Татуировка перо">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="works__more">
+            <div class="works__more-text">Смотрите больше работ в наших соц. сетях</div>
+            <ul class="social">
+              <li class="social__item">
+                <a class="social__link" href="https://instagram.com" target="_blank">
+                  <img src="img/instagram.svg" alt="instagram">
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="https://vk.com" target="_blank">
+                  <img src="img/vk.svg" alt="vk">
+                </a>
+              </li>
+            </ul>
+          </div>
+      </section>
+      <section class="team">
+        <div class="team__wrapper">
+          <div class="container">
+            <h2 class="team__title title title--white">Наши мастера</h2>
+            <div class="team__inner">
+              <div class="team__item">
+                <div class="team__item-img">
+                  <img src="img/team-1.jpg" alt="Мастер">
+                </div>
+                <h4 class="team__item-name item-name">Максим Акимов</h4>
+                <div class="team__item-desc">Опыт работы 7 лет</div>
+                <div class="team__item-desc">Художественная татуировка</div>
+              </div>
+              <div class="team__item">
+                <div class="team__item-img">
+                  <img src="img/team-2.jpg" alt="Мастер">
+                </div>
+                <h4 class="team__item-name item-name">Антон Заваров</h4>
+                <div class="team__item-desc">Опыт работы 8 лет</div>
+                <div class="team__item-desc">Художественная татуировка</div>
+              </div>
+              <div class="team__item">
+                <div class="team__item-img">
+                  <img src="img/team-3.jpg" alt="Мастер">
+                </div>
+                <h4 class="team__item-name item-name">Алиса Светлая</h4>
+                <div class="team__item-desc">Опыт работы 5 лет</div>
+                <div class="team__item-desc">Художественная татуировка, удаление тату</div>
+              </div>
+              <div class="team__item">
+                <div class="team__item-img">
+                  <img src="img/team-4.jpg" alt="Мастер">
+                </div>
+                <h4 class="team__item-name item-name">Олег Игнатьев</h4>
+                <div class="team__item-desc">Опыт работы 10 лет</div>
+                <div class="team__item-desc">Художественная татуировка, удаление тату</div>
+              </div>
+              <div class="team__item">
+                <div class="team__item-img">
+                  <img src="img/team-5.jpg" alt="Мастер">
+                </div>
+                <h4 class="team__item-name item-name">Саша Зверева</h4>
+                <div class="team__item-desc">Опыт работы 8 лет</div>
+                <div class="team__item-desc">Пирсинг</div>
+              </div>
+              <div class="team__item">
+                <div class="team__item-img">
+                  <img src="img/team-6.jpg" alt="Мастер">
+                </div>
+                <h4 class="team__item-name item-name">Глеб Борисов</h4>
+                <div class="team__item-desc">Опыт работы 9 лет</div>
+                <div class="team__item-desc">Художественная татуировка</div>
+              </div>
+            </div>
+            <div class="team__bottom">
+              <a class="btn btn--white" href="">БОЛЬШЕ МАСТЕРОВ</a>
+            </div>
+          </div>
+        </div>
+        <video class="team__video" src="img/team-bg.mp4" autoplay muted loop></video>
+      </section>
+
+      <section class="reviews">
+        <div class="container">
+          <h2 class="reviews__title title title--white">Отзывы клиентов</h2>
+          <div class="reviews__slider">
+            <div class="reviews__slider-item">
+              <div class="reviews__slider-flex">
+                <div class="reviews__slider-img">
+                  <img src="img/reviews-1.jpg" alt="Фото клиента">
+                </div>
+                <div class="reviews__slider-content">
+                  <div class="reviews__slider-author item-name">Мария</div>
+                  <div class="reviews__slider-text">Спасибо большое. Делала недавно свою первую татуировку. Мастер
+                    сделал как я хотела, местами подсказывал как будет смотреться лучше . Плучилось потрясающе, я в
+                    полном восторге от выполненной работы . Большое спасибо Антону за мою первую и надеюсь не последнию
+                    татуировку.</div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__slider-item">
+              <div class="reviews__slider-flex">
+                <div class="reviews__slider-img">
+                  <img src="img/reviews-2.jpg" alt="Фото клиента">
+                </div>
+                <div class="reviews__slider-content">
+                  <div class="reviews__slider-author item-name">Андрей</div>
+                  <div class="reviews__slider-text">Мастер Андрей - очень крутой профессионал. Было одно удовольствие с ним общаться. Работа выполнена прекрасно и полностью удовлетворила мои ожидания. Теперь я рекомендую салон и мастера всем моим друзьям и знакомым. Спасибо!</div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__slider-item">
+              <div class="reviews__slider-flex">
+                <div class="reviews__slider-img">
+                  <img src="img/reviews-3.jpg" alt="Фото клиента">
+                </div>
+                <div class="reviews__slider-content">
+                  <div class="reviews__slider-author item-name">Ирина</div>
+                  <div class="reviews__slider-text">Мастер Александра - классная. Сделала пирсинг, все на высшем уровне. Проявила себя с самой лучшей стороны. Отличный мастер, буду всем ее рекомендовать!</div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__slider-item">
+              <div class="reviews__slider-flex">
+                <div class="reviews__slider-img">
+                  <img src="img/reviews-4.jpg" alt="Фото клиента">
+                </div>
+                <div class="reviews__slider-content">
+                  <div class="reviews__slider-author item-name">Софья</div>
+                  <div class="reviews__slider-text">Мне тут очень понравилось! Очень дружелюбный персонал, работы мастеров на высшем уровне! Огромное спасибо мастеру Глебу за выполненную работу, а мастеру Алисе - за поддержку! В выборе салона опиралась на качество работ!</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contacts">
+        <div class="container">
+          <h2 class="contact__title title">Контакты</h2>
+          <div class="contact__inner">
+            <form class="contact__form">
+              <div class="contact__form-text">Оставьте свои контактные данные и мы перезвоним вам в ближайшее время
+              </div>
+              <input class="contact__form-input" type="text" placeholder="Ваше имя">
+              <input class="contact__form-input" type="text" placeholder="Номер телефона">
+              <button class="btn" type="button">ОТПРАВИТЬ</button>
+            </form>
+            <div class="contact__info">
+              <div class="contact__info-item">
+                <h5 class="contact__info-title">Адрес</h5>
+                <div class="contact__info-text">Москва, Армянский переулок, 7</div>
+              </div>
+              <div class="contact__info-item">
+                <h5 class="contact__info-title">Телефон</h5>
+                <a class="contact__info-link" href="tel:79245556677">+7 (924) 555 66 77</a>
+              </div>
+              <div class="contact__info-item">
+                <h5 class="contact__info-title">Адрес</h5>
+                <a class="contact__info-link" href="mailto:chameleon-tattoo@gmail.com">chameleon-tattoo@gmail.com</a>
+              </div>
+              <ul class="social">
+                <li class="social__item">
+                  <a class="social__link" href="https://instagram.com" target="_blank">
+                    <img src="img/instagram.svg" alt="instagram">
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="https://vk.com" target="_blank">
+                    <img src="img/vk.svg" alt="vk">
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="https://pinterest.com" target="_blank">
+                    <img src="img/pinterest.svg" alt="pinterest">
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="https://facebook.com" target="_blank">
+                    <img src="img/facebook.svg" alt="facebook">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal" id="modal_call">
+          <div class="modal__dialog">
+            <button class="modal__close"></button>
+            <form class="form">
+              <input class="form__input" type="text" placeholder="Ваше имя">
+              <input class="form__input" type="text" placeholder="Номер телефона">
+              <textarea class="form__textarea" placeholder="Сообщение"></textarea>
+              <div class="text-center">
+                <button class="btn btn--white" type="button">ОТПРАВИТЬ</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="modal" id="modal_menu">
+          <div class="modal__dialog">
+            <button class="modal__close"></button>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#about">О нас</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#services">Услуги</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#works">Работы</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#contacts">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__info">
+            <div class="footer__info-top">
+              <a class="logo" href="index.html"><img src="img/logo.svg" alt="Логотип"></a>
+              <button class="btn btn--white" data-modal="#modal_call" type="button"">Оставить заявку</button>
+              <div class=" footer__time">Наша студия работает ежедневно с 10:00 до 22:00.
+            </div>
+          </div>
+          <div class="footer__copy">
+            <p>© 2008 - 2021. Студия Хамелеон-Тату.</p>
+            <p>Услуги не предоставляются лицам, не достигшим 18 лет!</p>
+          </div>
+        </div>
+        <div class="footer__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d561.2266482239048!2d37.63584401889331!3d55.76012480409583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54ba86158c817%3A0x7c2753f7a70e2c3f!2z0KLQsNGC0YMg0YHRgtGD0LTQuNGPICLQpdCw0LzQtdC70LXQvtC9INGC0LDRgtGDIg!5e0!3m2!1sru!2sru!4v1619251943064!5m2!1sru!2sru"
+            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+  </div>
+  </footer>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
